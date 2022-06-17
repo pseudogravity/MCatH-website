@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta name="page_type" content="np-template-header-footer-from-plugin">
+
+	<!--Website information-->
+	<title>1.19 Panorama - Minecraft@Home</title>
+	<meta name="description" content="The 1.19 Minecraft menu panorama.">
+	<meta name="keywords" content="MinecraftAtHome, Minecraft@Home, seed finding, minecraft, packpng">
+	<meta name="url" content="https://minecraftathome.com/">
+
+	<!--Open Graph meta tags-->
+	<meta property="og:site_name" content="Minecraft@Home"> <!--Website name-->
+	<meta property="og:title" content="1.19 Panorama - Minecraft@Home"> <!--Page title-->
+	<meta property="og:description" content="The 1.19 Minecraft menu panorama.">
+	<meta property="og:image" content="https://minecraftathome.com/projects/images/mch-icon-inverted.svg">
+	<meta property="og:image:alt" content="Minecraft@Home white logo">
+	<!--FIX THIS ONE WHEN THE PAGES ARE SET UP CORRECTLY-->
+	<meta property="og:url" content="https://minecraftathome.com/projects/1-19-panorama.html">
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="en_US">
+
+	<!--Twitter meta tags-->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="1.19 Panorama - Minecraft@Home">
+	<meta name="twitter:description" content="The 1.19 Minecraft menu panorama.">
+	<meta name="twitter:image" content="https://minecraftathome.com/projects/images/pano119/main_post.png">
+	<meta name="twitter:image:alt" content="The 1.19 Panorama from Minecraft@Home.">
+	<meta name="site" content="@minecraftathome">
+
+	<!--Main link that search engines should use-->
+	<!--FIX THIS ONE WHEN THE PAGES ARE SET UP CORRECTLY-->
+	<link rel="canonical" href="https://minecraftathome.com/projects/1-19-panorama.html">
+	<!--Let search engines follow links and index the whole page-->
+	<meta name="robots" content="index, follow">
+
+	<!--Apple settings-->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	
+	<link rel="stylesheet" href="nicepage.css" media="screen">
+	<link rel="stylesheet" href="1-19-panorama.css?rnd=1" media="screen">
+	<script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+	<script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+	<link rel="icon" href="images/favicon.png">
+	<link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+<!--	<style>
+		body {
+    margin-top: 45px;
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+h1 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  padding-left: 20px;
+  color: #797979;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.main {
+    background: #F9F9F9;
+    padding: 30px 0;
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #EAEAEA;
+  .list-heading {
+    color: #e93937;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    padding-left: 20px;
+  }
+  li {
+    
+    color: #636363;
+    line-height: 1.2em;
+    padding-top: 10px;
+    font-weight: 500;
+    padding: 5px 20px ;
+    position: relative;
+    transition: all .2s ease;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    border-bottom: 1px solid #EFEFEF;
+    padding-bottom: 10px;
+    &:first-child {
+      border-top: 1px solid #EFEFEF;
+    }
+    &:hover {
+      background-color: #EFEFEF;
+      &:after {
+        bottom: 0;
+      }
+      .copy-btn {
+        opacity: 1;
+        right: 0;
+      }
+
+    }
+
+    .copy-btn {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      top: 0;
+      text-align: center;
+      transition: all .2s ease;
+      right: -100%;
+      bottom: 0;
+      padding: 15px;
+      background-color: #636363;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 10px;
+      font-weight: 600;
+      border: none;
+      outline: none;
+      width: 131px;
+      &:before {
+        content: "";
+        width: 20px;
+        height: 100%;
+        display: inline-block;
+        vertical-align: middle;
+        background-repeat: no-repeat;
+        background-position-y: center;
+      }
+      &:after {
+        content: "click to copy";
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+
+
+  }
+}
+
+.phone {
+  color: #636363;
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+  transition: all .2s ease-out;
+  border: 2px solid transparent;
+  &:hover {
+    cursor: pointer;
+    border: 2px solid #636363;
+
+    &:before {
+      opacity: 1;
+    }
+  }
+  &:before {
+    content: "Just the number";
+    display: inline-block;
+    position: absolute;
+    opacity: 0;
+    text-transform: uppercase;
+    right: -92%;
+    transition: all .2s ease;
+    top: -2px;
+    background-color: #636363;
+    padding: 2px 4px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 11px;
+  }
+  &:after {
+    content: "";
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 5px;
+  }
+}
+.success {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  width: 101px;
+  top: 0;
+  font-size: 12px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  bottom: 0;
+  padding: 15px;
+  background-color: #E93937;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all .1s ease;
+  font-weight: 600;
+  transform: scale(.1);
+  border-radius: 100%;
+  &:before {
+    content: "";
+    width: 20px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+  &:after {
+    content: "Copied!";
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &.show {
+    transform: scale(1);
+    border-radius: 0;
+  }
+}
+
+
+.p-success{
+  &:hover {border: 2px solid #E93937;}
+  &:before {
+    content: "Copied";
+    background: #E93937;
+    width: 92px;
+    text-align: center;
+  }
+}
+
+p {
+  margin-bottom: 30px;
+  color: #989898;
+  padding-left: 20px;
+}
+</style>-->
+	<!--Schema Markup Website/Organization information-->
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "Organization",
+		  "name": "Minecraft@Home",
+		  "alternateName": "MinecraftAtHome",
+		  "url": "https://minecraftathome.com/",
+		  "logo": "https://minecraftathome.com/projects/images/mch-icon-inverted.svg",
+		  "sameAs": [
+			"https://youtube.com/MinecraftAtHome",
+			"https://minecraftathome.com/",
+			"https://twitter.com/minecraftathome"
+		  ]
+		}
+	</script>
+	<!--Schema Markup Article information-->
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "Article",
+		  "mainEntityOfPage": {
+			"@type": "WebPage",
+			"@id": "https://minecraftathome.com/projects/1-19-panorama.html"
+		  },
+		  "headline": "The 1.19 Title Screen",
+		  "description": "The 1.19 Minecraft menu panorama.",
+		  "image": "https://minecraftathome.com/projects/images/pano119/main_post.png",  
+		  "author": {
+			"@type": "Organization",
+			"name": "Minecraft@Home",
+			"alternateName": "MinecraftAtHome"
+		  },  
+		  "publisher": {
+			"@type": "Organization",
+			"name": "Minecraft@Home",
+			"alternateName": "MinecraftAtHome",
+			"logo": {
+			  "@type": "ImageObject",
+			  "url": "https://minecraftathome.com/projects/images/mch-icon-inverted.svg"
+			}
+		  },
+		  "datePublished": "2021-10-23",
+		  "dateModified": "2021-10-23"
+		}
+	</script>
+  </head>
+
+  <body class="u-body"><header class="u-clearfix u-header u-palette-5-dark-3 u-header" id="sec-d764"><div class="u-clearfix u-sheet u-sheet-1">
+		<a href="about.html" data-page-id="17911896" class="u-image u-logo u-image-1" title="about">
+		  <img src="images/mch-wordmark-invertedwithlink_2040px.png" class="u-logo-image u-logo-image-1" data-image-width="193.2858" alt="Full white version of the Minecraft@Home logo with a yellow link to minecraftathome.com">
+		</a>
+		<nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1" data-responsive-from="SM">
+		  <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700; text-transform: uppercase;">
+			<a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-white" href="#">
+			  <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+			  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</symbol>
+</defs></svg>
+			</a>
+		  </div>
+		  <div class="u-custom-menu u-nav-container">
+			<ul class="u-nav u-spacing-30 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-white" href="about.html" style="padding: 10px 0px;">About Us</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-white" href="list.html" style="padding: 10px 0px;">List of Projects</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="beta-panorama.html">Beta Panorama</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="packpng.html">Pack.PNG</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="skull-painting.html">Skull Painting</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="1-13-1-16-panoramas.html">1.13-1.16 Panoramas</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="1-18-panorama.html">1.18 Panorama</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="1-19-panorama.html">1.19 Panorama</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="herobrine.html">Herobrine</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="smash-backgrounds.html">Smash Backgrounds</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="official-trailer.html">Official Trailer</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="tallcactus.html">Tallest Cactus</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="markiplier.html">Markiplier Worlds</a>
+</li></ul>
+</div>
+</li></ul>
+		  </div>
+		  <div class="u-custom-menu u-nav-container-collapse">
+			<div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+			  <div class="u-sidenav-overflow">
+				<div class="u-menu-close"></div>
+				<ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-3"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="about.html" style="padding: 10px 0px;">About Us</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="list.html" style="padding: 10px 0px;">List of Projects</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-4"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="beta-panorama.html">Beta Panorama</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="packpng.html">Pack.PNG</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="skull-painting.html">Skull Painting</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="1-13-1-16-panoramas.html">1.13-1.16 Panoramas</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="1-18-panorama.html">1.18 Panorama</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="herobrine.html">Herobrine</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="smash-backgrounds.html">Smash Backgrounds</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="official-trailer.html">Official Trailer</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="tallcactus.html">Tallest Cactus</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="markiplier.html">Markiplier Worlds</a>
+</li></ul>
+</div>
+</li></ul>
+			  </div>
+			</div>
+			<div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+		  </div>
+		</nav>
+	  </div></header>
+	<section class="u-align-left u-clearfix u-image u-shading u-section-1" data-image-width="1600" data-image-height="900" id="sec-de63">
+	  <div class="u-clearfix u-sheet u-sheet-1">
+		<h1 class="u-text u-text-1">The <span class="u-text-palette-4-light-2">1.19 </span>
+		  <span class="u-text-palette-4-light-2">Title Screen</span>
+		</h1>
+		
+	  </div>
+	</section>
+	<section class="u-clearfix u-section-2" id="sec-af45">
+	  <div class="u-clearfix u-sheet u-sheet-1">
+		<h2 class="u-align-center u-text u-text-1">Official Videos and Media</h2>
+		<p class="u-align-center u-text u-text-default u-text-2">Follow the links below to learn more about this project.</p>
+		<div class="u-align-center u-list u-repeater u-list-1">
+		  <div class="u-container-style u-list-item u-repeater-item u-list-item-1" data-href="https://mcatho.me/pano119credits" data-target="_blank">
+			<div class="u-container-layout u-similar-container u-container-layout-1"><span class="u-icon u-icon-circle u-text-palette-4-dark-1 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 480.026 480.026"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-cc69"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 480.026 480.026" x="0px" y="0px" id="svg-cc69" style="enable-background:new 0 0 480.026 480.026;"><g><g><path d="M475.922,229.325l-144-160c-3.072-3.392-7.36-5.312-11.904-5.312h-96c-6.304,0-12.032,3.712-14.624,9.472    c-2.56,5.792-1.504,12.544,2.72,17.216l134.368,149.312l-134.368,149.28c-4.224,4.704-5.312,11.456-2.72,17.216    c2.592,5.792,8.32,9.504,14.624,9.504h96c4.544,0,8.832-1.952,11.904-5.28l144-160    C481.394,244.653,481.394,235.373,475.922,229.325z"></path>
+</g>
+</g><g><g><path d="M267.922,229.325l-144-160c-3.072-3.392-7.36-5.312-11.904-5.312h-96c-6.304,0-12.032,3.712-14.624,9.472    c-2.56,5.792-1.504,12.544,2.72,17.216l134.368,149.312L4.114,389.293c-4.224,4.704-5.312,11.456-2.72,17.216    c2.592,5.792,8.32,9.504,14.624,9.504h96c4.544,0,8.832-1.952,11.904-5.28l144-160    C273.394,244.653,273.394,235.373,267.922,229.325z"></path>
+</g>
+</g></svg>
+			
+		  </span>
+			  <p class="u-text u-text-palette-4-dark-1 u-text-3">Credits Document / Info / FAQ</p>
+			</div>
+		  </div>
+		  <div class="u-container-style u-list-item u-repeater-item u-list-item-2" data-href="https://www.youtube.com/watch?v=gw9oLFTHXqw" data-target="_blank">
+			<div class="u-container-layout u-similar-container u-container-layout-2"><span class="u-icon u-icon-circle u-text-palette-4-dark-1 u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 480.026 480.026"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-cfb7"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 480.026 480.026" x="0px" y="0px" id="svg-cfb7" style="enable-background:new 0 0 480.026 480.026;"><g><g><path d="M475.922,229.325l-144-160c-3.072-3.392-7.36-5.312-11.904-5.312h-96c-6.304,0-12.032,3.712-14.624,9.472    c-2.56,5.792-1.504,12.544,2.72,17.216l134.368,149.312l-134.368,149.28c-4.224,4.704-5.312,11.456-2.72,17.216    c2.592,5.792,8.32,9.504,14.624,9.504h96c4.544,0,8.832-1.952,11.904-5.28l144-160    C481.394,244.653,481.394,235.373,475.922,229.325z"></path>
+</g>
+</g><g><g><path d="M267.922,229.325l-144-160c-3.072-3.392-7.36-5.312-11.904-5.312h-96c-6.304,0-12.032,3.712-14.624,9.472    c-2.56,5.792-1.504,12.544,2.72,17.216l134.368,149.312L4.114,389.293c-4.224,4.704-5.312,11.456-2.72,17.216    c2.592,5.792,8.32,9.504,14.624,9.504h96c4.544,0,8.832-1.952,11.904-5.28l144-160    C273.394,244.653,273.394,235.373,267.922,229.325z"></path>
+</g>
+</g></svg>
+			
+		  </span>
+			  <p class="u-text u-text-palette-4-dark-1 u-text-4">Official Seed Rev​eal Video</p>
+			</div>
+		  </div>
+		  <div class="u-container-style u-list-item u-repeater-item u-list-item-3" data-href="https://www.reddit.com/r/Minecraft/comments/vek8n8/the_119_title_screen_panorama_seed_has_been_found/" data-target="_blank">
+			<div class="u-container-layout u-similar-container u-container-layout-3"><span class="u-icon u-icon-circle u-text-palette-4-dark-1 u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 480.026 480.026"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-cc70"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 480.026 480.026" x="0px" y="0px" id="svg-cc70" style="enable-background:new 0 0 480.026 480.026;"><g><g><path d="M475.922,229.325l-144-160c-3.072-3.392-7.36-5.312-11.904-5.312h-96c-6.304,0-12.032,3.712-14.624,9.472    c-2.56,5.792-1.504,12.544,2.72,17.216l134.368,149.312l-134.368,149.28c-4.224,4.704-5.312,11.456-2.72,17.216    c2.592,5.792,8.32,9.504,14.624,9.504h96c4.544,0,8.832-1.952,11.904-5.28l144-160    C481.394,244.653,481.394,235.373,475.922,229.325z"></path>
+</g>
+</g><g><g><path d="M267.922,229.325l-144-160c-3.072-3.392-7.36-5.312-11.904-5.312h-96c-6.304,0-12.032,3.712-14.624,9.472    c-2.56,5.792-1.504,12.544,2.72,17.216l134.368,149.312L4.114,389.293c-4.224,4.704-5.312,11.456-2.72,17.216    c2.592,5.792,8.32,9.504,14.624,9.504h96c4.544,0,8.832-1.952,11.904-5.28l144-160    C273.394,244.653,273.394,235.373,267.922,229.325z"></path>
+</g>
+</g></svg>
+			
+		  </span>
+			  <p class="u-text u-text-palette-4-dark-1 u-text-5">Official Reddit Post</p>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</section>
+	<section class="u-clearfix u-white u-section-3" id="sec-05c5">
+	  <div class="u-clearfix u-sheet u-sheet-1">
+		<h2 class="u-text u-text-1">Project Summary</h2>
+		<p class="u-text u-text-2" style="text-align: justify;">
+			The Minecraft 1.19 panorama featuring the new Mangrove Swamp biome was added to the game in Java Edition 
+			snapshot 22w15a. On April 13th 2022, the day of the snapshot’s release, the Minecraft@Home team swiftly 
+			began work to uncover the seed.
+			<br/><br/>
+			Our process is pretty standard by now. Like with any other panorama project, we extracted the six images 
+			that make up the panorama from the game's files. After creating a recreation server for this project, 
+			we used a custom overlay to display the source images over our recreation to aid in accurately rebuilding 
+			as much of the world as we needed. While we were building the recreation, others within the team began 
+			working on finding the exact coordinates where the panorama was located. We narrowed down the coordinates 
+			using clouds at first, but the full set of coordinates would later be found by MisterX using the rotations 
+			of lily pads. Work on the recreation continued, and within a few days, we had more than enough of the world 
+			rebuilt to explore possible methods of cracking the seed.
+			<br/><br/>
+			It wasn't as easy this time around though. We knew the ideal approach would be using the lilypad positions 
+			to get the seed. Unfortunately, using this method efficiently relies on seedcracking techniques that have 
+			not yet been fully discovered on Minecraft versions 1.18 or higher. Therefore the only option we had was brute 
+			force, the slowest cracking method available. To counter this, we planned to use an FPGA, which is a special 
+			kind of chip that can reach much higher speeds than a normal CPU. A few members of our discord server have already 
+			experimented with FPGAs, and so they attempted developing code for this project as well. But unfortunately, not much 
+			work ended up being done, and all progress ground to a halt.
+			<br/><br/>
+			However, on June 8th, a day after the official release of 1.19, one of our members named <b>Andrew</b> managed to surprise 
+			everyone again by finding the seed entirely on his own! Interestingly, his <a href="https://pastebin.com/H2mw76zH">code</a>
+			took less than a second to run despite using the same lilypad brute-forcing technique we originally planned to use.
+			<br/><br/><br/>
+			<u>So, how in the world was he able to do that?</u>
+			<br/><br/>
+			The answer is surprisingly simple: <b>Andrew</b> made a few assumptions, one of which turned out to be correct. 
+			The seed wasn't random; it came from manually entered text. When inputting a text seed, the game will convert 
+			it into a number that is, for technical reasons, shorter than randomly generated seeds. This means that there 
+			were less seeds that needed to be checked, and so the code was able to check them all in a short amount of time.
+			<br/><br/>
+			There is, however, one question that remains unanswered. What text did Mojang enter in the world creation screen? 
+			We attempted to figure this out too, but we weren't successful, as too many possible strings can produce the same 
+			seed. As a result, we may never uncover the true text seed, but if the text is somehow found later, we will be 
+			sure to update this page.
+
+			Please also check out the full list of contributors, describing who did what: 
+			<a  href="https://mcatho.me/pano119credits" 
+				class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" 
+				target="_blank">
+				https://mcatho.me/pano119credits
+			</a>
+			<br>	
+			-----
+			<br>
+			<br>
+			<!--
+			<li>
+				<div class="copy-content">
+					<u>Seed</u>: <b>-1696067516</b>
+				</div>
+				<button class="copy-btn"></button>
+			</li>
+			-->
+			<u>Seed</u>: <b>-1696067516</b>
+			<br>
+			<u>Seed text</u>: <b>not yet discovered</b>
+			<br>
+			<u>Version</u>: <b>Java Edition Snapshot 22w15a</b>
+			<br>
+			<u>Coordinates</u>: <b>X=3820.872, Y=67.868, Z=553.455</b>
+			<br>
+			<br>
+			<b>Precise teleport command</b>:
+			<br>
+			/tp @s 3820.872 67.868 553.455 -89.1 0
+			
+			<br>
+			<br>	
+			-----
+			<br>
+			Here you can find the code that Andrew wrote to crack this seed: <a href="https://pastebin.com/H2mw76zH">https://pastebin.com/H2mw76zH</a>
+
+			<br>
+			<br>
+			We invite you to join our <a href="https://discord.gg/JnTbZSXHhS" class="u-align-center u-btn u-button-style u-palette-4-dark-1 u-btn-1">Discord server</a>, where you can either help with projects like these, or just hang around, watch the magic happen and keep up with the news!
+			<br>
+			
+		  
+		  
+		</p>
+	  </div>
+	</section>
+	<section class="u-align-center u-clearfix u-section-4" id="sec-842b">
+	  <div class="u-clearfix u-sheet u-sheet-1">
+		<h2 class="u-text u-text-1">Image Gallery</h2>
+		<p class="u-text u-text-2">Hover over certain images for details.</p>
+		<div class="u-expanded-width u-gallery u-layout-grid u-lightbox u-show-text-on-hover u-gallery-1">
+		  <div class="u-gallery-inner u-gallery-inner-1">
+			<div class="u-effect-fade u-gallery-item">
+			  <div class="u-back-slide" data-image-width="1600" data-image-height="900">
+				<img class="u-back-image u-expanded u-image-contain" src="images/pano119/main_post.png" alt="The 1.19 Panorama with the Minecraft@Home logo and the contributors.">
+			  </div>
+			  <div class="u-over-slide u-shading u-over-slide-1">
+				<p class="u-gallery-text"></p>
+			  </div>
+			</div>
+			<div class="u-effect-fade u-gallery-item">
+			  <div class="u-back-slide" data-image-width="1600" data-image-height="900">
+				<img class="u-back-image u-expanded u-image-contain" src="images/pano119/stitched.png" alt="The 1.19 panorama stitched 3d view.">
+			  </div>
+			  <div class="u-over-slide u-shading u-over-slide-3">
+				<p class="u-gallery-text"></p>
+			  </div>
+			</div>
+			<div class="u-effect-fade u-gallery-item" data-image-width="1600" data-image-height="900">
+			  <div class="u-back-slide">
+				<img class="u-back-image u-expanded u-image-contain" src="images/pano119/1.png" alt="The 1.19 panorama slightly rotated on the right.">
+			  </div>
+			  <div class="u-over-slide u-shading u-over-slide-4">
+				<p class="u-gallery-text"></p>
+			  </div>
+			</div>
+			<div class="u-effect-fade u-gallery-item" data-image-width="1600" data-image-height="900">
+			  <div class="u-back-slide">
+				<img class="u-back-image u-expanded u-image-contain" src="images/pano119/2.png" alt="The 1.19 panorama slightly rotated on the left.">
+			  </div>
+			  <div class="u-over-slide u-shading u-over-slide-5">
+				<p class="u-gallery-text"></p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</section>
+	<section class="u-align-center u-clearfix u-white u-section-5" id="sec-fcb7">
+	  <div class="u-clearfix u-sheet u-sheet-1">
+		<h2 class="u-text u-text-default u-text-1">Join our Discord and other social media!</h2>
+		<a href="about.html#links" data-page-id="17911896" class="u-align-center u-btn u-button-style u-palette-4-dark-1 u-btn-1">View Our Links</a>
+	  </div>
+	</section>
+	<section class="u-align-center u-clearfix u-white u-section-6" id="sec-627b">
+	  <div class="u-clearfix u-sheet u-sheet-1">
+		<h2 class="u-text u-text-body-color u-text-1">Contribute your computing power with BOINC!</h2>
+		<a href="about.html#boinc" data-page-id="17911896" class="u-align-center u-btn u-button-style u-palette-4-dark-1 u-btn-1">Click for more Info</a>
+	  </div>
+	</section>
+	
+	<footer class="u-align-left-xs u-clearfix u-footer u-palette-5-dark-3" id="sec-13e0"><div class="u-clearfix u-sheet u-sheet-1">
+		<p class="u-align-center u-text u-text-default u-text-1">Copyright © 2021 Minecraft@HOME<br>This website is not affiliated with Mojang, the developers of Minecraft.<br>
+		</p>
+	  </div></footer>
+<!--	  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+     function copyFull() {
+  //copys inner html of target div. 
+
+  //event button
+  var copyBtn = $('.copy-btn');
+  copyBtn.on('click', function(event) {
+
+    var $this = $(this);
+
+    //find the element that has the text you want.
+    var content = $this.prev('.copy-content');
+    //creates new range object and sets text as boundaries.
+    var range = document.createRange();
+    range.selectNode(content[0]);
+    window.getSelection().addRange(range);
+
+    try {
+      // Now that we've selected the text, execute the copy command  
+      var successful = document.execCommand('copy');
+      /*var msg = successful ? 'successful' : 'unsuccessful';
+      console.log('Copy email command was ' + msg);*/
+
+      //handle success
+      $(this).after('<span class="success"></span>');
+      setTimeout(function() {
+        $('.success').addClass('show');
+        setTimeout(function() {
+          $('.success').fadeOut(function() {
+            $('.success').remove();
+          });
+        }, 1000);
+      }, 0);
+    } catch (err) {
+      //console.log('Oops, unable to copy');
+    }
+    //clear out range for next event.
+    window.getSelection().removeAllRanges();
+
+  });
+}
+
+function copyPhone() {
+  // same principle. Set a copyBtn, and a target element. In this case they are the same.
+  var copyBtn = $('.phone');
+  copyBtn.on('click', function(event) {
+    var content = $(this);
+    var range = document.createRange();
+    range.selectNode(content[0]);
+    window.getSelection().addRange(range);
+
+    try {
+      var successful = document.execCommand('copy');
+      $(this).addClass('p-success');
+      setTimeout(function() {
+        $('.phone').removeClass('p-success');
+      }, 1000);
+    } catch (err) {
+      // console.log('Oops, unable to copy');  
+    }
+
+    window.getSelection().removeAllRanges();
+
+  });
+}
+
+$(function() {
+  copyFull();
+  copyPhone();
+
+});
+</script>-->
+  </body>
+</html>
